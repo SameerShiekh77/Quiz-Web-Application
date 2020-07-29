@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <img src="./images/quiz.jpg" class="img" alt="">
+    <div class="title">
+        <h1 class="heading" id="heading">QUIZ APP</h1>
+        <h2 id="score">Score: 00</h2>
+        <div id="time" style="display: flex;">
+            <h3 id="mint" style=" margin-left: 5px">0 mints</h3>
+            <h3 id="sec" style=" margin-left: 5px">0 sec</h3>
+        </div>
+    </div>
+
+    <div class="quizContainer">
+        <div class="question">
+            <p id="q1">What is extension of javascript?</p>
+            <div class="options">
+                <center>
+                    <button class="btn" id="opt1" onclick="check(this)">docx</button>
+                    <button class="btn" id="opt2" onclick="check(this)">js</button>
+                    <button class="btn" id="opt3" onclick="check(this)">html</button>
+                    <button class="btn" id="opt4" onclick="check(this)">css</button>
+                </center>
+                <div id="btn">
+                    <button onclick="show()" class="btnNext" id="Nbtn">Next Question</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="app.js"></script>
+
+</html>
