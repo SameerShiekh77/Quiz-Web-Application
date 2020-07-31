@@ -9,13 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <img src="./images/quiz.jpg" class="img" alt="">
+
+<body onload="showQuestion()">
+    <!-- <img src="./images/quiz.jpg" class="img" alt=""> -->
     <div class="title">
         <h1 class="heading" id="heading">QUIZ APP</h1>
-        <h2 id="score">Score: 00</h2>
+        <h2 id="userName"></h2>
+        <h2 id="score"><br></h2>
         <div id="time" style="display: flex;">
-            <h3 id="mint" style=" margin-left: 5px">0 mints</h3>
+            <h3 id="mint" style=" margin-left: 5px"></h3>
             <h3 id="sec" style=" margin-left: 5px">0 sec</h3>
         </div>
     </div>
